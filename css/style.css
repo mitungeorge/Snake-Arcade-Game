@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width:100%;
+  background-image:url('../image/background.jpg');
+  overflow: hidden;
+}
+
+.game {
+    padding: 79px 0 0 350px;
+    background-color: transparent;
+      }
+
+#home {
+      width: 600px;
+      height: 500px;
+      background-image: url('../image/snakegame.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-color: black;
+      border-style: groove;
+      border-color:grey;
+      padding: 0;
+      }
+
+#score {
+      position: absolute;
+      left: 610px;
+      top: 40px;
+      background-color: white;
+      width: 70px;
+      text-align: center;
+      background-color: #787474;
+      color: white;
+    }      
+    
+button {
+      background-color: green;
+      color: white;
+      border: none;
+      bottom: 0;
+      height: 30px;
+      font-size: 12pt;
+      width: 90px;
+      margin: 25px 0 0 250px;
+    }
+
+button:hover {
+      background-color: #284e28;
+    }
+
+button:disabled {
+      background-color: grey;
+    }
+
+
+
+
